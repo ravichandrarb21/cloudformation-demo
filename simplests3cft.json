@@ -8,7 +8,7 @@
         "Type" : "AWS::SNS::Topic",
         "Properties" : {
           "Subscription" :  [{
-            "Endpoint" : { "Ref" : "SNSEmail"},
+            "Endpoint" : "ravichandrarb21@gmail.com",
             "Protocol" : "email"
           }]
         }
